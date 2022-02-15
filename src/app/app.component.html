@@ -1,0 +1,18 @@
+<div class="div-topo">
+  <div class="div-logo">
+    <img src="/assets/img/logo_redondo_page-00033-removebg-preview.png" width="100%">
+  </div>
+</div>
+
+<div class="align-cards">
+  <div class="div-card" *ngFor="let link of links">
+    <mat-card style="background-color: #169eda;" (click)="toUrl(link.url)" >
+      <div class="conteudo-card">
+        <div class="logo-rede-social">
+          <img src="{{link.imgSrc}}" width="100%">
+        </div>
+        <h1>{{link.nome}}</h1>
+      </div>
+    </mat-card>
+  </div>
+</div>

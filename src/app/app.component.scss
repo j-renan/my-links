@@ -1,0 +1,58 @@
+.align-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+  margin-top: 40px;
+}
+
+.mat-card {
+  border-radius: 42px !important;
+  width: 80% !important;
+  margin: 20px !important;
+}
+
+.div-card {
+  display: contents;
+  cursor: pointer;
+}
+
+.div-topo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  margin-top: 35px;
+}
+
+.div-logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: #fff;
+}
+
+.logo-rede-social{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.conteudo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #ed6931;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+
+}
